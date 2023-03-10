@@ -518,3 +518,13 @@ nav ul, .social ul {
     margin-top: 10px;
     margin-right: 10px;
 }
+
+.enviar {
+    background-color: #FE9A22;
+    color: #FFF;
+}
+
+button .enviar:hover {
+    background-color: #FFF;
+    color: #FE9A22;
+}
