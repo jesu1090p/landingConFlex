@@ -415,16 +415,42 @@ nav ul, .social ul {
     padding: 60px;
     color: #D4F0FF;
     height: 600px;
+    margin-top: 30px;
 }
 .footer p, .footer h1 {
     color: #fff;
     font-weight: 3rem;
 }
 
-.footer h1 {
-    
-    font-family: 'Playfair';
+.footer h1 {    
+    font-family: 'Playfair Display';
+    margin-bottom: 2rem;
 }
+
+.footer p {    
+    font-size: 1.2rem;
+    width: 500px;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+
+.footer button {    
+    font-size: 1.2rem;
+    width: 200px;
+    line-height: 2;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    letter-spacing: 0.9px;
+    border-radius: 5px;
+}
+
+.footer button:hover {    
+    color:#FFF;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
 .left-footer {
    display: flex;
    justify-content: flex-start;
@@ -434,7 +460,61 @@ nav ul, .social ul {
 }
 .right-footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    font-size: 25px;
     flex: 1;
     width: 50%;
  }
+
+ .right-footer input {
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #9F9F9F;
+    width: 45%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.datos {
+    display: flex;
+    flex-direction: row;    
+}
+
+.datos textarea {
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #9F9F9F;
+    width: 74%;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.datos .contact {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.datos .contact span {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;    
+    width: 51%;
+    color: #FFF;
+}
+
+.datos .contact a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 51%;
+    color: #FFF;
+    margin-left: 10px;
+}
+
+.datos .contact img { 
+    height: 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
