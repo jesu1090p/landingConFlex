@@ -14,6 +14,533 @@ a {
     border-bottom: 3px solid #FDC221;
 }
 
+@media only screen and (max-width: 768px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        font-family: 'Hind Vadodara';
+        font-style: normal;    
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: 0.01em; 
+        overflow: hidden;
+        order: 2;
+        margin-top: 1.5rem;
+    }
+
+    .menu li {
+        margin-left: 15px;
+    }
+    
+    .menu .active {
+        font-weight: 700;
+    }
+    
+    nav ul, .social ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;    
+    }
+    
+    .brand {
+        display: flex;
+        flex: 50%;
+        justify-content: center;
+        height: 36px;    
+        font-family: 'Playfair Display';
+        font-size: 1.6rem;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.01em;    
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        order: 1;
+        }
+    
+    .social {
+        display: flex;
+        justify-content: center;
+        flex: 100%;    
+        order: 3;    
+        margin-top: 1.5rem;
+    }
+    
+    .social img {
+        height: 1.5rem;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    .social a img:hover {
+        background-color:  #FDC221;    
+    }
+    
+    .home {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 1.5rem;
+    }
+    
+    .home-text {
+        display: flex;
+        flex-direction: column;
+        max-width: 750px;
+        margin: 30px 10px;
+        vertical-align: middle;
+        justify-content: center   
+    }
+    
+    .home-text h1 {
+        font-size: 2rem;
+        line-height: 0.9;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .home-text h1 span {
+        font-weight: 700;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .home-text p {
+        font-size: 1.5rem;
+        margin-top: 1.0rem;
+        line-height: 1.2;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .main-button {    
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        color: #FFFFFF;  
+        background-color: #331B3B;
+        margin-top: 15px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        width: 120px;
+        margin: 20px auto;
+    }
+    
+    .home-image {
+        display: flex;
+        justify-content: flex-end;
+        flex: 100%;
+        width: 100%;
+        max-width: 768px;
+    }
+    
+    .home-image img {
+        width: 100%;
+        max-width: 768px;
+    }
+    
+    .cards {
+        background: url(./images/card-background.png);     
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+    
+    }
+    
+    .cards-heading {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 2rem;
+        line-height: 0.9;
+        padding-top: 1.5rem;
+    }
+    
+    .heading {
+        font-weight: bold;
+    }
+    
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 700px;
+        margin-top: 30px;
+    }
+    
+    .cards-container h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .cards-container p {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .card1, .card2, .card3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        background-color: #fff;
+        margin-top: 15px;
+        border-radius: 10px;
+        padding: 15px;     
+        width: 500px;
+        column-gap: 20px;
+        line-height: 1.5;
+    }
+
+   
+    
+    .card-heading {
+        text-transform: uppercase;
+        font-size: 1.1em;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 1.0rem;
+    }
+    
+    .card-image {
+        margin-bottom: 1rem;  
+    }
+    
+    .web {
+        background-color: #FFDED4;
+        padding: 10px;
+        border-radius: 10px;
+        width: 50px;
+        margin: auto;
+    }
+    
+    .dev {
+        background-color: #FFEED4;
+        padding: 10px;
+        border-radius: 10px;
+        width: 50px;
+        margin: auto;
+    }
+    
+    .mobile {
+        background-color: #D4F0FF;
+        padding: 10px;
+        border-radius: 10px;
+        width: 50px;
+        margin: auto;
+    }
+    
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 0 2rem 0;
+        margin-left: 0.5rem;
+        
+    }
+    
+    .image-about img {
+        display: none;
+    }
+    
+    .text-about  {
+        display: flex;
+        flex-direction: column;    
+        width: 100%;
+    }
+    .text-about h1 {
+        font-size: 2.0rem;
+        text-align: center;
+        line-height: 0.9;
+        font-weight: 400;
+    }
+    
+    .text-about h1 span{
+        font-size: 2.0rem;
+        line-height: 0.9;
+        font-weight: 700;
+    }
+    
+    .text-about p {
+        font-size: 1.3rem;
+        margin-top: 1.0rem;
+        line-height: 1.1;
+        font-weight: 400;
+        width: 100%;
+        text-align: center;
+    }
+
+    .jobs {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background: url(./images/jobs-background.png);  
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .jobs-heading {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    
+    .jobs-heading h1 {
+        font-size: 2rem;
+        line-height: 0.9;
+        font-weight: 400;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .jobs-heading p {
+        font-size: 1.3rem;
+        line-height: 0.9;
+        font-weight: 400;
+        width: 100%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .jobs-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .job-card-img {
+        width: 280px;
+        box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    
+    .job-card1, .job-card2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        column-gap: 10px;
+        row-gap: 10px;
+        padding: 10px;
+        background-color: #fff;
+        margin: 10px;
+        border-radius: 15px;
+    
+    }
+    
+    .job-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .job-text h1 {
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+    
+    .secondary-button {
+        background-color: #fff;
+        border-radius: 15px;
+        padding: 0px 20px;
+        font-size: 1.1rem;
+    }
+    
+    .main-button:hover {
+        background-color: #fff;
+        color: #331B3B;  
+       
+    }
+    
+    .secondary-button:hover {
+        background-color: #331B3B;
+        color: #fff;    
+    }
+    
+    .testimonios-heading {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        line-height: 0.9;
+        font-weight: 400;
+    }
+    
+    .testimonios-heading p {  
+        font-size: 2rem;
+        line-height: 0.9;
+        font-weight: 400;
+        margin-top: 2rem;
+    }
+    
+    .testimonios-heading span {
+        font-weight: bold;
+        margin-top: 1.0rem;
+    }
+    
+    .testimonios-cards{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    .testimonio1, .testimonio2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;    
+        margin: 20px;
+    }
+    
+    
+    .testimonio1 img, .testimonio2 img {
+        width: 18px;
+    }
+    
+    .p-testimonio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;    
+        width: 350px;
+        height: 280px;
+        padding: 15px;
+        border-radius: 5px; 
+        box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.08);
+        font-size: 1.3rem;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;        
+        padding: 20px;
+        color: #D4F0FF;
+        margin-top: 20px;
+        background-color: #000;
+        border-radius: 0 120px 0 0 ;
+    }
+    .footer p, .footer h1 {
+        color: #fff;
+    }
+    
+    .footer h1 {    
+        font-family: 'Playfair Display';
+        margin-bottom: 1.5rem;
+    }
+    
+    .footer p {    
+        font-size: 1.2rem;
+        width: 90%;
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+    }
+    
+    .footer button {    
+        font-size: 1.0rem;
+        width: 150px;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 1px solid ;
+        margin: auto;
+    }
+    
+    .footer button:hover {    
+        color:#FFF;
+        background-color: #000;
+        border: 1px solid #fff;
+    }
+    
+    .left-footer {
+       width: 100%;
+       margin-bottom: 3rem;
+    }
+    .right-footer {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        width: 100%;
+     }
+    
+     .right-footer input {
+        padding: 5px 5px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1rem;
+        color: #9F9F9F;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+    
+    .datos {
+        display: flex;
+        flex-direction: column;    
+    }
+    
+    .datos textarea {
+        padding: 5px 5px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1rem;
+        color: #9F9F9F;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 15px;
+        margin-right: 15px;
+    }
+    
+    .datos .contact {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .datos .contact span {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;    
+        width: 90%;
+        color: #FFF;
+    } 
+      
+    .datos .contact img { 
+        height: 12px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    
+    .enviar {
+        background-color: #FE9A22;
+        color: #FFF;
+        margin: auto;
+    }
+    
+    button .enviar:hover {
+        background-color: #FFF;
+        color: #FE9A22;
+    }
+       
+    }
+
 @media only screen and (min-width: 768px) {
 
     header {
@@ -29,7 +556,7 @@ a {
         flex: 33%;
         font-family: 'Hind Vadodara';
         font-style: normal;    
-        font-size: 0.8rem;
+        font-size: 1.5rem;
         font-weight: 300;
         letter-spacing: 0.01em; 
         overflow: hidden;
